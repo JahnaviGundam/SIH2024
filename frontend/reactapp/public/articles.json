@@ -1,0 +1,49 @@
+[
+    {
+        "article_number": "52",
+        "title": "The President of India",
+        "chapter": "The Executive",
+        "part": "Part V",
+        "text": "There shall be a President of India.",
+        "simplified_text": "The President is the head of India.",
+        "related_articles": [
+            {
+                "article_number": "74",
+                "title": "Council of Ministers"
+            },
+            {
+                "article_number": "79",
+                "title": "Constitution of Parliament"
+            }
+        ],
+        "media": {
+            "media_type": "video",
+            "media_url": "/videos/article52.mp4",
+            "description": "Explaining the role of the President of India."
+        }
+    },
+    {
+        "article_number": "74",
+        "title": "Council of Ministers",
+        "chapter": "The Executive",
+        "part": "Part V",
+        "text": "There shall be a Council of Ministers with the Prime Minister at the head.",
+        "simplified_text": "The Prime Minister leads the Council of Ministers.",
+        "related_articles": [
+            {
+                "article_number": "52",
+                "title": "The President of India"
+            },
+            {
+                "article_number": "79",
+                "title": "Constitution of Parliament"
+            }
+        ],
+        "media": {
+            "media_type": "video",
+            "media_url": "/videos/article74.mp4",
+            "description": "Explaining the role of the Prime Minister."
+        }
+    }
+    
+]

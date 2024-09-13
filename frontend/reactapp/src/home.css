@@ -1,0 +1,142 @@
+/* General Styles for the App */
+.App {
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    width: 805;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; /* Rounded corners for smooth look */
+    font-family: 'Roboto', sans-serif; /* Custom font for readability */
+    color: #333;
+}
+
+/* Article List Section */
+.article-list {
+    margin: 20px 0;
+    width: 100%;
+    max-width: 800px;
+}
+
+.article-list select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid rgb(154 52 18); /* Border with primary color */
+    background-color: #fff;
+    color: #333;
+    outline: none;
+    transition: 0.3s;
+}
+
+.article-list select:hover {
+    border-color: rgb(154 52 18); /* Darker shade on hover */
+    cursor: pointer;
+}
+
+/* Article Details Section */
+.article-details {
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+}
+
+.article-details h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: rgb(154 52 18); /* Title in primary color */
+    font-weight: bold;
+}
+
+.article-details p {
+    font-size: 18px;
+    color: #555; /* Softer text color */
+    line-height: 1.6;
+}
+
+/* Related Articles List */
+.article-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.article-details ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(154 52 18);
+    cursor: pointer;
+}
+
+.article-details ul li:hover {
+    color: rgb(154 52 18);
+    text-decoration: underline;
+}
+
+/* Media Section for Videos */
+.media-section {
+    margin-top: 30px;
+    background-color: rgb(154 52 18); /* Background for video section */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.media-section h3 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.media-section video {
+    width: 80%;
+    margin:auto;
+    max-width: 600px;
+    height: auto;
+    border: 3px solid #fff; /* White border around video */
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Video shadow */
+}
+
+/* Buttons (if any) */
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(154 52 18);
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(154 52 18);
+    cursor: pointer;
+}
+
+/* Fonts and Colors */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #e9ecef; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Add transitions for smooth hover effects */
+* {
+    transition: all 0.3s ease;
+}
